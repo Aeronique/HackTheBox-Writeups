@@ -21,7 +21,7 @@ The objective is to identify exposed services, access the system through Telnet 
 The first step was to scan the target system for open ports and running services.
 
 ```bash
-nmap -sC -sV <target_ip>
+nmap -sT -sV <target_ip>
 ```
 
 The scan revealed the following:
